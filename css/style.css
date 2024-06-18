@@ -1,6 +1,77 @@
+body {
+  background-color: #eef2e2;
+  font-family: "DM Mono", monospace;
+}
+
 h1 {
   text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
 }
+h2 {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #eef2e2;
+  font-size: 16px;
+  font-style: italic;
+  font-family: "DM Mono", monospace;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  color: white;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 22px 70px 4px;
+  border-radius: 15px;
+}
+
+.city {
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.7;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.time {
+  font-size: 85px;
+  font-weight: bold;
+  font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #83c407;
+}
+
+.time small {
+  font-size: 40px;
+  vertical-align: middle;
+}
+
 footer {
   text-align: center;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
 }
