@@ -5,9 +5,22 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 36px;
-  margin-bottom: 50px;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
+
+.world {
+  font-size: 35px;
+  margin-left: -4px;
+  margin-right: -5px;
+}
+
+.clock {
+  font-size: 33px;
+  margin-left: -6px;
+  margin-right: -4px;
+}
+
 h2 {
   margin: 0 0 10px;
   font-size: 30px;
@@ -26,7 +39,7 @@ select {
 
 .container {
   max-width: 600px;
-  margin: 50px auto;
+  margin: 60px auto;
   background: radial-gradient(
     circle at 24.1% 68.8%,
     rgb(50, 50, 50) 0%,
@@ -58,10 +71,7 @@ select {
 
 .time {
   font-size: 85px;
-  font-weight: bold;
   font-family: "Micro 5", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   color: #83c407;
 }
 
@@ -74,4 +84,12 @@ footer {
   text-align: center;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.9);
+}
+
+strong {
+  color: #7eb906;
+}
+
+a {
+  color: #7eb906;
 }
