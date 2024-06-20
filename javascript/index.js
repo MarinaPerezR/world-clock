@@ -22,17 +22,6 @@ function updateTime() {
   londonTimeElement.innerHTML = londonTime.format(
     "h:mm:ss [<small>]A[</small>]"
   );
-
-  //Phnom Penh
-  let cambodiaElement = document.querySelector("#cambodia");
-  let cambodiaDateElement = cambodiaElement.querySelector(".date");
-  let cambodiaTimeElement = cambodiaElement.querySelector(".time");
-  let cambodiaTime = moment().tz("Asia/Phnom_Penh");
-
-  cambodiaDateElement.innerHTML = moment().format("D MMMM YYYY");
-  cambodiaTimeElement.innerHTML = cambodiaTime.format(
-    "h:mm:ss [<small>]A[</small>]"
-  );
 }
 
 function updateCity(event) {
